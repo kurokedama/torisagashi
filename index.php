@@ -3,10 +3,13 @@
 </head>
 <body>
 <?php
+$code = null
+for ($count = 0; $count < 10; $count++){
+  $number = mt_rand(33, 126)
+  $code = $code . chr($number)
+}
 
-$string = "!¥"#$%&¥'¥(¥)*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ¥[\¥]^_`abcdefghijklmnopqrstuvwxyz{|}~";
-
-$tripkey = '#istrip';? //パスワードとする文字列（# 付き）
+$tripkey = '#' . $number ;? //パスワードとする文字列（# 付き）
 $tripkey = substr($tripkey, 1);
 
 $salt = substr($tripkey . 'H.', 1, 2);
