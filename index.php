@@ -4,7 +4,7 @@
 <body>
 <?php
 
-$string = '!"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~';
+$string = "";
 
 $tripkey = '#istrip';? //パスワードとする文字列（# 付き）
 $tripkey = substr($tripkey, 1);
