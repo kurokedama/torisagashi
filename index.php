@@ -1,7 +1,15 @@
 <!doctype html>
 <head>
+  <meta charset=“utf-8”>
+  <title>うい</title>
 </head>
 <body>
+  <br>
+  <input type=“text”>
+  <br>
+  <input type=“submit” name =“comment“ formmethod=“post”>
+  <br>
+  <h1>こっちみんな</h1>
 <?php
 $code = null
 for ($count = 0; $count < 10; $count++){
